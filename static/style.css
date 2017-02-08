@@ -1,0 +1,32 @@
+body            { font-family: sans-serif; background: #eee; }
+a, h1, h2       { color: #383838; }
+a:link          {text-decoration: none;}
+a:hover         {text-decoration: underline;}
+a:active        {text-decoration: none;}
+a:visited       {color:grey;}
+h1, h2          { font-family: 'Times', serif; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em;}
+td              { width: 33.33%; }
+table           { padding-top: 0.8em; }
+hr              { border: 0; height: 0; border-top: 1px solid rgba(0,0,0,0.1); border-bottom: 1px solid rgba(255,255,255,0.3);}
+
+.page           { height: 85vh; margin: 3em; background: white; 
+                     box-shadow: 10px 10px 5px #888888;}
+.entries        { margin: 0; padding: 0;  }
+.add-entry      { font-size: 0.9em; font-weight: bold; padding: 0.8em;}
+
+.flash          { background: #cee5F5; padding: 0.5em;
+                  border: 1px solid #aacbe2; margin-bottom: 1em;}
+.error          { background: #f0d6d6; padding: 0.5em; }
+.node           { font-family: Lato;}
+
+.link           { stroke: #999; stroke-width: .5px;}
+#loading        { display: none;}
+#chart          { margin: auto; display: none; }
+.graph          { width: 75%; height: 100%; background: #383838; 
+                   float: left}
+.headlines      { width: 25%;  height: 100%; float: left; 
+                   overflow-y: auto;
+                  } 
+.titles         { padding: .5em }
